@@ -1,0 +1,72 @@
+p{
+    text-align: start;
+    padding: 0%;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+h1{
+    font-family: cursive;
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+
+#title{
+    margin-top: 20%;
+    font-size: 240px;
+    text-align: center;
+}
+
+.blackBackground{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.buttonCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5%;
+    gap: 2%;
+    padding: 0.5%;
+}
+
+li{ 
+    font-family: cursive;
+    font-size: 20px;
+}
+
+button:hover{
+    color:crimson;
+}
+
+.imageStyle{
+    height: 160px;
+    width: 160px;
+    margin-bottom: 2%;
+}
+
+button{
+    background-color:lightgreen;
+}
+
+.timeline {
+    max-width: 700px;
+    border-left: 5px solid gold;
+    padding: 10px;
+    margin: 0 auto;
+    margin-left: 0%;
+}
+
+#audioID{
+
+}
+
+.timelineParent{
+    display: flex;
+    gap:0;
+}
+
+.timelineImages{
+    margin-left: 15%;
+}
