@@ -16,7 +16,7 @@ function NavBar(){
     return (
         <>
 
-            <div className='buttonCenter' style={{borderBottom: '10px solid green' }}>
+            <div className='buttonCenter' style={{borderBottom: '6px solid white', backgroundColor: 'black'}}>
                 <Link to="/">
                     <button style={{color:'orange', border: '2px solid purple' ,borderRadius: '20px', fontFamily: 'cursive'}}> Home </button>
                 </Link>

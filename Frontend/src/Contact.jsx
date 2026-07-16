@@ -58,6 +58,7 @@ function Contact(){
   onSpeedUp={() => {}} 
   onSlowDown={() => {}} 
 /></div>
+        <div style={{padding: '1%'}}>
             <h1> My Contacts: </h1>
             <ul>
                 <li> Phone Number: 676-767-6767 </li>
@@ -68,14 +69,15 @@ function Contact(){
             <form onSubmit={handleSubmit}>
             <div class="mb-3 mt-3">
                 <label htmlFor="email" class="form-label"> Email:</label>
-                <input name="email" id="email" placeholder="Enter email" class="form-control"></input>
+                <input name="email" id="email" placeholder="Enter email" class="form-control" style={{backgroundColor: 'grey', border: 'none'}}></input>
             </div>
             <div class="mb-3">
                 <label htmlFor="question" class="form-label"> Question:</label>
-                <input class="form-control" id="question" name="pswd" placeholder='Enter Question'></input>
+                <input class="form-control" id="question" name="pswd" placeholder='Enter Question' style={{backgroundColor: 'grey', border: 'none'}}></input>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
             </form> 
+    </div>
         </>    
     )   
 }

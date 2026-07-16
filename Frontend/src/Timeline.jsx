@@ -52,7 +52,7 @@ function Timeline(){
   onSpeedUp={() => {}} 
   onSlowDown={() => {}} 
 /></div>
-        <div className='timelineParent'>
+        <div className='timelineParent' style={{paddingLeft: '0%'}}>
             <div className='timelineImages'>
                 <img src="src/images/baby.jpg" width='150px' height='150px'></img>
                 <br></br>
@@ -83,9 +83,6 @@ function Timeline(){
                 <br></br>
                 <h1 className='fs-3' style={{padding: '2%'}}> 8/16/2017: </h1>
                 <p> First day in elementary school </p>
-                <br></br>
-                <br></br>
-                <br></br>
                 <br></br>
                 <h1 className='fs-3' style={{padding: '2%'}}> 5/13/2021: </h1> 
                 <p> First time doing robotics </p>

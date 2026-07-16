@@ -89,3 +89,15 @@ button{
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #00f3ff, 0 0 30px #00f3ff, 0 0 40px #00f3ff;
    animation: flicker 3s infinite alternate;
 }
+
+h1{
+    padding-left: 2%;
+}
+
+p{
+    padding-left: 2%;
+}
+
+input{
+    background-color: grey;
+}

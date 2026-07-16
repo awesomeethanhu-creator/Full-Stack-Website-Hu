@@ -61,6 +61,7 @@ function Extracurriculars(){
             </ul>
 
             <h1> Soccer: </h1>
+            <img src="src/images/soccer.webp" style={{padding: '0.7%', paddingTop: '0%', height: '150px', width: '180px'}}></img>
             <ul>
                 <li> I play center-mid </li>
                 <li> I support Barcalona </li>
@@ -68,6 +69,7 @@ function Extracurriculars(){
             </ul>
 
             <h1> Band: </h1>
+            <img src="src/images/band.jpg" style={{padding: '0.7%', paddingTop: '0%', height: '150px', width: '180px'}}></img>
             <ul>
                 <li> I play percussion </li>
                 <li> I play with SHS </li>
@@ -75,6 +77,7 @@ function Extracurriculars(){
             </ul>          
 
             <h1> Robotics: </h1>
+            <img src="src/images/robotics.jpg" style={{padding: '0.7%', paddingTop: '0%', height: '150px', width: '180px'}}></img>
             <ul>
                 <li> I'm part of my school's FRC team </li>
                 <li> I do software </li>
