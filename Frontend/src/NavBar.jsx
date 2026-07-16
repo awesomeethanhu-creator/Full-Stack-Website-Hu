@@ -8,34 +8,37 @@ function NavBar(){
         my_elem.classList.toggle("blackBackground")
     }
 
+    function changeTextMode(){
+        const my_elem=document.querySelector("body");
+        my_elem.classList.toggle("neonText");
+    }
+
     return (
         <>
 
-            <div className='buttonCenter'>
-                <button onClick={changeMode}> Change Mode </button>
-
+            <div className='buttonCenter' style={{borderBottom: '10px solid green' }}>
                 <Link to="/">
-                    <button> Home </button>
+                    <button style={{color:'orange', border: '2px solid purple' ,borderRadius: '20px', fontFamily: 'cursive'}}> Home </button>
                 </Link>
 
                 <Link to='/Timeline'>
-                    <button> Timeline </button>
+                    <button style={{color:'yellow', border: '2px solid purple' ,borderRadius: '20px', fontFamily: 'cursive'}}> Timeline </button>
                 </Link>
 
                 <Link to="/ThingsILike">
-                    <button>Things I Like</button>
+                    <button style={{color:'green', border: '2px solid purple' ,borderRadius: '20px', fontFamily: 'cursive'}}>Things I Like</button>
                 </Link>
 
                 <Link to="/ThingsIHate">
-                    <button>Things I Hate </button>
+                    <button style={{color:'blue', border: '2px solid purple' ,borderRadius: '20px', fontFamily: 'cursive'}}>Things I Hate </button>
                 </Link>
 
                 <Link to="/Extracurriculars">
-                    <button> Extracurriculars </button>
+                    <button style={{color:'purple', border: '2px solid purple' ,borderRadius: '20px', fontFamily: 'cursive'}}> Extracurriculars </button>
                 </Link>
 
                 <Link to="/Contact">
-                    <button> Contacts </button>
+                    <button style={{color:'black', border: '2px solid purple' ,borderRadius: '20px', fontFamily: 'cursive'}}> Contacts </button>
                 </Link>                      
             </div> 
         </>

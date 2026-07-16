@@ -1,14 +1,17 @@
+@font-face {
+    font-family: 'pixelFont';
+    src: url('/src/assets/coolFont.ttf');
+}
+
+@font-face {
+    font-family: 'cyberFont';
+    src: url(src/assets/neonGlow.ttf);
+}
+
 p{
     text-align: start;
     padding: 0%;
-    font-family: cursive;
     font-size: 15px;
-}
-
-h1{
-    font-family: cursive;
-    margin-bottom: 0%;
-    margin-top: 2%;
 }
 
 #title{
@@ -32,7 +35,6 @@ h1{
 }
 
 li{ 
-    font-family: cursive;
     font-size: 20px;
 }
 
@@ -68,5 +70,22 @@ button{
 }
 
 .timelineImages{
-    margin-left: 15%;
+    margin-left: 10%;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00f3ff, 0 0 30px #00f3ff;
+  }
+  20%, 24%, 55% {        
+    text-shadow: none; 
+  }
+}
+
+*{
+    font-family: 'cyberFont';
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #00f3ff, 0 0 30px #00f3ff, 0 0 40px #00f3ff;
+   animation: flicker 3s infinite alternate;
 }
